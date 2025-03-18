@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+        
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+a:hover {
+    font-size: 2.1rem;
+}
+
+.context {
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+.text-context {
+    color: white;
+}
+
+.menu-apt {
+    margin-top: 1rem;
+}
+.conteine {
+    background: rgb(0, 0, 0);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 1rem;
+    padding: 3rem;
+    border: green solid 0.2rem;
+    border-radius: 5rem;
+    
+}
+.apt-conteiner {
+    background: rgb(0, 0, 0);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+
+.apt-nomes {
+    border: rgb(255, 255, 255) solid 0.2rem;
+    display: flex;
+    flex-flow: column;
+    margin: 2rem;
+    text-transform: uppercase;
+    border-radius: 5rem;
+    background: white;
+}
+.apt-nomes a {
+    padding: 2rem;
+    color: black;
+}
+.apt-nomes:hover {
+    background: white;
+}
+.voltar {
+    background: red;
+    width: 20rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+}
+.voltar a {
+    color: white;
+}
+.botao-volta {
+    padding: 2rem;
+}
+
+.apt-dados {
+    background: black;
+    color: rgb(255, 0, 0);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dados {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}

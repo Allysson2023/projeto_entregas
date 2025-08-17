@@ -17,7 +17,7 @@ a:hover {
 }
 
 .context {
-    background: red;
+    background: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ a:hover {
     margin-top: 1rem;
 }
 .conteine {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
     min-width: 100%;
     min-height: 100vh;
     display: flex;
